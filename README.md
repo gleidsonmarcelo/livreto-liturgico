@@ -198,13 +198,13 @@ Abrir o Windows Terminal ou Terminal do VS Code:
 * Instalar pacotes de desenvolvimento.
 
 ~~~bash
-sudo apt install -y build-essential
+sudo apt install build-essential -y
 ~~~
 
 * Instalar o Zsh.
 
 ~~~bash
-sudo apt install zsh
+sudo apt install zsh -y
 ~~~
 
 * Após a instalação do zsh realizar a mudança do shell:
@@ -240,10 +240,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 Adicionar o plugin na lista de plugins do Oh My Zsh (no arquivo ~/.zshrc):
 
 ~~~bash
-    plugins=(
-        # other plugins...
-        zsh-autosuggestions
-    )
+zsh-autosuggestions
 ~~~
 
 #### Instalar e configurar zsh-syntax-highlighting
@@ -257,7 +254,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 Adicionar o plugin na lista de plugins do Oh My Zsh (no arquivo ~/.zshrc):
 
 ~~~bash
-plugins=( [plugins...] zsh-syntax-highlighting)
+zsh-syntax-highlighting
 ~~~
 
 #### Instalação e configuração do tema powerlevel10k
