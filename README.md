@@ -290,7 +290,7 @@ echo "deb http://miktex.org/download/ubuntu jammy universe" | sudo tee /etc/apt/
 * Instalação do MikTeX:
 
 ~~~bash
-sudo apt update -y && sudo apt install miktex
+sudo apt update -y && sudo apt install miktex -y
 ~~~
 
 * Finalizar a configuração.
